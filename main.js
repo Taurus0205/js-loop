@@ -15,3 +15,15 @@ function makeItPositive(numbers) {
 }
 
 console.log(makeItPositive(userNumbers));
+
+function toSquare(numbers) {
+  var myResult = [];
+
+  for (var number of numbers) {
+    myResult.push(Math.round(number) ** 2);
+  }
+
+  return myResult;
+}
+
+console.log(toSquare(userNumbers));
